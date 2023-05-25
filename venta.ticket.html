@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Venta de Tickets</title>
+</head>
+<body>
+    <section>
+        <div class="">
+          <p class="card-text text-center fs-5 ">VENTA</p>
+          <h1 class="text-center  ">VALOR DEL TICKET 200$</h1>
+        </div>
+        <form class="formulario">
+          <div class="container-md">
+            <div class="row ">
+              <div class="col-6 mb-3 ">
+                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                <label for="floatingInput"></label>
+              </div>
+              <div class="col-6">
+                <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                <label class="" for="floatingInput"></label>
+              </div>
+              <div class="col-12 mt-0">
+                <input type="email" class="form-control" id="correo" placeholder="Correo">
+                <label class="" for="floatingInput"></label>
+              </div>
+              <div class="col-6 mb-1 ">
+                <label class="mb-1" for="floatingInput ">Cantidad</label>
+                <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
+    
+              </div>
+    
+              <div class="col-6">
+                <label class="mb-1" for="">Categoría</label>
+                <select class="form-select" aria-label="Default select example" id="categoria">
+                  <option value="estudiante">Estudiante</option>
+                  <option value="trainee">Trainee</option>
+                  <option value="junior">Junior</option>
+                </select>
+              </div>
+              <div class="">
+                <label class="alert alert-primary d-flex  my-5" for="" id="totalAPagar">Total a Pagar $:</label>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="container-md">
+    
+        </div>
+        <div class="container mb-3">
+          <div class="row ">
+    
+            <div class="col ">
+              <button class="btn  btn-success col-12 btnBorrar" type="button">Borrar</button>
+            </div>
+            <div class="col">
+              <button class="btn btn-success col-12 btnResumen" type="button">Resumen</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="./venta-ticket.js"></script>
+</body>
+</html>
